@@ -1,0 +1,317 @@
+{
+  "info": {
+    "_postman_id": "a4b27ab8-7d01-4e6e-8175-025164994d87",
+    "name": "JSON-Dataset-Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "41470215"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":10,\"name\":\"Test\",\"age\":40,\"department\":\"Sales\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?groupBy=department",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "groupBy",
+              "value": "department"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?sortBy=age&order=as",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "sortBy",
+              "value": "age"
+            },
+            {
+              "key": "order",
+              "value": "as"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?sortBy=age&order=asc",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "sortBy",
+              "value": "age"
+            },
+            {
+              "key": "order",
+              "value": "asc"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?sortBy=age&order=desc",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "sortBy",
+              "value": "age"
+            },
+            {
+              "key": "order",
+              "value": "desc"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?groupBy=department&sortBy=age",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "groupBy",
+              "value": "department"
+            },
+            {
+              "key": "sortBy",
+              "value": "age"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"id\":1,\"name\":\"John\",\"age\":30}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?groupBy=department&sortBy=age",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "groupBy",
+              "value": "department"
+            },
+            {
+              "key": "sortBy",
+              "value": "age"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"name\":\"No id\"}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?groupBy=department&sortBy=age",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "groupBy",
+              "value": "department"
+            },
+            {
+              "key": "sortBy",
+              "value": "age"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/dataset/nothing/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/nothing/query?groupBy=x",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "nothing",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "groupBy",
+              "value": "x"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "\thttp://localhost:8080/api/dataset/employees/query",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/dataset/employees/query?sortBy=age&order=sideways",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "dataset",
+            "employees",
+            "query"
+          ],
+          "query": [
+            {
+              "key": "sortBy",
+              "value": "age"
+            },
+            {
+              "key": "order",
+              "value": "sideways"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
